@@ -43,11 +43,6 @@ class ContactListViewController: UIViewController {
     
     // MARK: - Helper Functions
     private func setupNavigationBarButtonItems() {
-        let groupsBarButtonItem = UIBarButtonItem(title: viewModel.groupBarButtonTitle,
-                                                  style: .plain,
-                                                  target: self,
-                                                  action: nil)
-        navigationItem.leftBarButtonItem = groupsBarButtonItem
         
         let addContactBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                       target: self,

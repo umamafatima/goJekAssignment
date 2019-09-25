@@ -30,7 +30,6 @@ class ContactListViewModel {
     private var httpClient: HTTPClient!
     
     let title = NSLocalizedString("Contact", comment: "")
-    let groupBarButtonTitle = NSLocalizedString("Groups", comment: "")
     
     var isBusy: Bindable<Bool> = Bindable(false)
     var contacts: Bindable<[Contact]?> = Bindable(nil)
